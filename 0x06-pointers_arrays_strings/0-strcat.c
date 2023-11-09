@@ -1,11 +1,12 @@
 #include "main.h"
+
 /**
- * @brief _strcat - concat 2 string
- *
- * @param dest:char
- * @param src:char
- * @return char*
+ * _strcat - concat 2 string
+ * @dest:char
+ * @src:char
+ * Return char*
  */
+
 char *_strcat(char *dest, char *src)
 {
 	while (*dest != '\0')
