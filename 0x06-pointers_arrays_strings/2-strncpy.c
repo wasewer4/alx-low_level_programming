@@ -1,9 +1,9 @@
 /**
  * _strncpy - function that copies a string
  *
- * @param dest: char
- * @param src: char
- * @param n: int
+ * @dest: char
+ * @src: char
+ * @n: int
  * Return: char*
  */
 char *_strncpy(char *dest, char *src, int n)
