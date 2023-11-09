@@ -5,35 +5,17 @@
  * to uppercase
  * @s: string to modify
  *
- * Return: the final string
+ * Return: the resulting string
  */
 char *string_toupper(char *s)
 {
 	int i;
 
-	i = 0;
-	while (s[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 32;
-		i++;
 	}
 
 	return (s);
-}
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    char str[] = "Look up!\n";
-    char *ptr;
-
-    ptr = string_toupper(str);
-    printf("%s", ptr);
-    printf("%s", str);
-    return (0);
 }
