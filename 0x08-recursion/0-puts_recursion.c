@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _puts_recursions - function similar to puts 
- * @s: char pointer to print using recursion 
+ * _puts_recursion - function similar to puts
+ * @s: char pointer to print using recursion
+ * Return: return newline if string has reached end
  */
 void _puts_recursion(char *s)
 {
