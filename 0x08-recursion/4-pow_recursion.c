@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * 
  * _pow_recursion - raise base integer to the power of following integer
- *
  * @x: base number
  * @y: power
- *
  * Return: result of computation
  */
 
