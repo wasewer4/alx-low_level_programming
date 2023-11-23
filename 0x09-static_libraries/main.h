@@ -1,5 +1,5 @@
-#ifndef FILE_MAIN
-#define FILE_MAIN
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 /*a list that was given from the task 0 */
 
